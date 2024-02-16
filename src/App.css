@@ -6,6 +6,43 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*header*/
+
+.header {
+  background-color: blue;
+  height: 100px;
+}
+
+/* Cart styles */
+.cart_div {
+  float: right;
+  margin: 30px;
+  position: relative;
+  display: flex; /* Set display to flex */
+  align-items: center;
+  background-color: #61dafb;
+  border-radius: 10%;
+  /* Align items vertically in the flex container */
+}
+
+.cart_div img {
+  width: 50px;
+  border-radius: 10%;
+}
+
+.cart_div span {
+  background-color: #61dafb;
+  border-radius: 10%;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px; /* Add margin for spacing between img and span */
+  position: relative; /* Remove absolute positioning */
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
