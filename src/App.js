@@ -1,12 +1,18 @@
-import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
+import "./App.css";
+import Cart from "./components/Cart";
+
+import Header from "./components/Header";
+import Main from "./components/Main";
+import { Routes, Route } from "react-router-dom";
 function App() {
-  
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+        <Route path="/cart" element={<Cart/>}></Route>
+
+      </Routes>
     </div>
   );
 }

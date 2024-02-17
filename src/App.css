@@ -11,6 +11,35 @@
 .header {
   background-color: blue;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.logo {
+  margin: 0;
+  color: white;
+float: left;}
+/* Apply styles to the input */
+.header input{
+  width: 130%;
+  float: left;
+}
+.header input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  float: left;
+  
+}
+
+/* Apply additional styles on focus for better visibility */
+.header input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 /* Cart styles */
@@ -42,6 +71,21 @@
   justify-content: center;
   align-items: center;
   font-size: 12px;
+}
+/*cart table*/
+
+.cart-page-conatiner{
+display: flex;
+margin-left: 40px;
+margin-right: 40px;
+}
+.cart-page-conatiner table{
+  flex: 65%;
+  border-collapse: collapse;
+}
+.cart-page-conatiner table td{
+border: 2px solid blue;
+padding: 15px;
 }
 /*main =product ui*/
 .product-container{

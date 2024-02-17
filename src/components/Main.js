@@ -25,7 +25,7 @@ useEffect(()=>{
       <div> Name:{item.name}</div>
       <div> color:{item.color}</div>
       <div> price:{item.price}</div>
-      <div> category:{item.category}</div>
+      <div> category:{item.categeory}</div>
       <div> brand:{item.brand}</div>
       <div> 
         <button onClick={() => dispatch(addToCart(item))}>Add To Cart</button>
