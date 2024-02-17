@@ -6,6 +6,6 @@ export const productList=()=>{
     // console.log("Clicked", data);
     return {
         type:PRODUCT_LIST,
-        data:"apple"
+    
     };
 }

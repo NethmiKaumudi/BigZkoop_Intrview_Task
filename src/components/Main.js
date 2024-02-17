@@ -5,7 +5,7 @@ import { productList } from '../redux/ProductAction';
 import {useSelector} from 'react-redux'
 
 function Main() {
-  const dispatch = useDispatch();
+const dispatch = useDispatch();
 let data=useSelector(state=>state.productData);
 console.log("data in main compnent",data);
 
